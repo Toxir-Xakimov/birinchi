@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1240px;
+    padding: 0.20px;
+}
+body{
+   background-color: darkolivegreen;
+   font-family: 'Bebas Neue', cursive;
+}
+.header{
+    background-color: yellow;
+    width: 1370px;
+    margin-left: auto;
+    height: 100px;
+    margin-right: auto;
+    margin-left: -5px;
+}
+.shop{
+    font-size: 35px;
+    color: rgb(115, 189, 4);
+    margin-top: 25px;
+    position: absolute;
+}
+.list{
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.li{
+    list-style: none;
+}
+.ul{
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 30px;
+    position: absolute;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+:hover.list{
+    color: brown;
+    transition: 1s;
+}
+.img-box{
+    margin-top: 50px;
+    margin-left: -15px;
+}
+.img{
+    margin-left: 30px;
+}
+.search{
+    border-radius: 10px;
+    width: 600px;
+    margin-left: 250px;
+    margin-top: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    color: antiquewhite;
+    background-color: darkolivegreen;
+    border: 1px solid yellow;
+}
+.search2{
+    padding: 13px 35px ;
+    border: 2px solid yellow;
+    background-color: yellowgreen;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+:hover.search2{
+    background-color: white;
+    color: black;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 283px;
+    height: 478px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+:hover.card{
+    box-shadow: 15px 15px 15px grey;
+    background-color: black;
+    transition: 0.5s;
+    border: 5px solid yellowgreen;
+}
+.iphone{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.iphone2{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+:hover.iphone2{
+    color: white;
+    cursor: pointer;
+}
+.sold{
+    font-size: 25px;
+    color: brown;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.gb{
+    font-size: 25px;
+    color: burlywood;
+    margin-left: 50px;
+}
+.buy{
+    text-decoration: none;
+    border: 2px solid yellow;
+    padding: 15px 55px;
+    border-radius: 10px;
+    margin-left: 65px;
+    margin-top: 20px;
+    position: absolute;
+    font-size: 20px;
+    color: brown;
+}
+:hover.buy{
+    background-color: black;
+    transition: 0.5s;
+    color: white;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iphone3{
+    width: 170px;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+.card-box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iphone4{
+    width: 280px;
+    margin-top: 55px;
+    margin-left: 3px;
+}
+.card-box3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iphone5{
+    width: 200px;
+    margin-top: 55px;
+    margin-left: 35px;
+}
+.iphone6{
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+.footer{
+    width: 1350px;
+    background-color: yellow;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.online{
+    font-size: 35px;
+    color: darkolivegreen;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 100px;
+}
+.ul2{
+   display: flex;
+   align-items: center;
+   margin-left: 300px;
+   margin-top: 100px;
+   position: absolute;
+}
+.phone{
+    font-size: 50px;
+}
+:hover.phone{
+    color: brown;
+    cursor: pointer;
+}
+.laptop{
+    font-size: 50px;
+    margin-top: 20px;
+}
+:hover.laptop{
+    color: brown;
+    cursor: pointer;
+}
