@@ -50,125 +50,70 @@ body{
     color: brown;
     transition: 1s;
 }
-.img-box{
-    margin-top: 50px;
-    margin-left: -15px;
-}
-.img{
-    margin-left: 30px;
-}
-.search{
-    border-radius: 10px;
-    width: 600px;
-    margin-left: 250px;
-    margin-top: 50px;
-    height: 50px;
-    outline: none;
+.name{
     border: none;
-    color: antiquewhite;
-    background-color: darkolivegreen;
-    border: 1px solid yellow;
-}
-.search2{
-    padding: 13px 35px ;
-    border: 2px solid yellow;
-    background-color: yellowgreen;
-    text-decoration: none;
-    color: white;
-    border-radius: 5px;
-}
-:hover.search2{
+    outline: none;
     background-color: white;
-    color: black;
+    bottom: 90px;
+    border: 2px solid greenyellow;
+    width: 400px;
+    height: 50px;
 }
-.card{
-    background-color: rgb(255, 255, 255);
-    width: 283px;
-    height: 478px;
-    border-radius: 10px;
+
+.name2{
+    border: none;
+    outline: none;
+    background-color: white;
+    bottom: 90px;
+    border: 2px solid greenyellow;
+    width: 400px;
+    height: 50px;
+}
+.name3{
+    border: none;
+    outline: none;
+    background-color: white;
+    bottom: 90px;
+    border: 2px solid greenyellow;
+    width: 400px;
+    height: 50px;
+}
+.name4{
+    border: none;
+    outline: none;
+    background-color: white;
+    bottom: 90px;
+    border: 2px solid greenyellow;
+    width: 400px;
+    height: 50px;
+}
+.names2{
     margin-top: 20px;
 }
-:hover.card{
-    box-shadow: 15px 15px 15px grey;
-    background-color: black;
-    transition: 0.5s;
-    border: 5px solid yellowgreen;
+.names3{
+    margin-top: 20px;
 }
-.iphone{
-    width: 200px;
-    margin-top: 50px;
-    margin-left: 40px;
+.names4{
+    margin-top: 20px;
 }
-.iphone2{
-    font-size: 25px;
-    margin-top: 30px;
-    margin-left: 40px;
+.input-box{
+   margin-top: 100px;
+   margin-left: 400px;
 }
-:hover.iphone2{
-    color: white;
-    cursor: pointer;
-}
-.sold{
-    font-size: 25px;
-    color: brown;
-    cursor: pointer;
-    margin-left: 40px;
-}
-.gb{
-    font-size: 25px;
-    color: burlywood;
-    margin-left: 50px;
-}
-.buy{
+.sign{
     text-decoration: none;
-    border: 2px solid yellow;
-    padding: 15px 55px;
-    border-radius: 10px;
-    margin-left: 65px;
+    color: yellow;
+    padding: 15px 177px;
     margin-top: 20px;
     position: absolute;
     font-size: 20px;
-    color: brown;
+    border: 1px solid yellow;
+    background-color: darkolivegreen;
 }
-:hover.buy{
-    background-color: black;
-    transition: 0.5s;
+:hover.sign{
     color: white;
-}
-.card-box{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.iphone3{
-    width: 170px;
-    margin-top: 35px;
-    margin-left: 50px;
-}
-.card-box2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.iphone4{
-    width: 280px;
-    margin-top: 55px;
-    margin-left: 3px;
-}
-.card-box3{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.iphone5{
-    width: 200px;
-    margin-top: 55px;
-    margin-left: 35px;
-}
-.iphone6{
-    width: 200px;
-    margin-top: 30px;
-    margin-left: 35px;
+    background-color: black ;
+
 }
 .footer{
     width: 1350px;
@@ -192,18 +137,129 @@ body{
    margin-top: 100px;
    position: absolute;
 }
-.phone{
-    font-size: 50px;
+.card{
+    width: 175px;
+    height: 93px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 20px;
 }
-:hover.phone{
-    color: brown;
-    cursor: pointer;
-}
-.laptop{
-    font-size: 50px;
+.img{
+    margin-left: 60px;
     margin-top: 20px;
+    border-radius: 10px;
 }
-:hover.laptop{
-    color: brown;
+:hover.img{
+    width: 50px;
+}
+:hover.card{
+     background-color: rgb(255, 245, 245);
+     transition: 1s;
+     cursor: pointer;
+}
+.img2{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 80px;
+}
+:hover.img2{
+    width: 95px;
+}
+.apple{
+    margin-left: 65px;
+    margin-top: -5px;
+}
+.samsung{
+    margin-left: 65px;
+    margin-top: 10px;
+}
+.img3{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+:hover.img3{
+    width: 60px;
+}
+.mi{
+    margin-left: 80px;
+}
+.asus{
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.img4{
+    margin-left: 49px;
+    margin-top: 30px;
+}
+:hover.img4{
+    width: 70px;
+}
+.hp{
+    margin-left: 80px;
+    margin-top: 5px;
+}
+.img5{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+:hover.img5{
+    width: 55px;
+}
+.card2{
+    width: 175px;
+    height: 93px;
+    background-color: white;
+    border: 1px solid rgb(86, 86, 86);
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.card3{
+    width: 175px;
+    height: 93px;
+    background-color: white;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.card4{
+    width: 175px;
+    height: 93px;
+    background-color: white;
+    border: 1px solid rgb(86, 86, 86);
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.card5{
+    width: 175px;
+    height: 93px;
+    background-color: white;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 20px;
+    margin-left: 30px;
+}
+:hover.card2{
+    background-color: rgb(255, 245, 245);
+    transition: 1s;
     cursor: pointer;
+}
+:hover.card3{
+    background-color: rgb(255, 245, 245);
+    transition: 1s;
+    cursor: pointer;
+}
+:hover.card4{
+    background-color: rgb(255, 245, 245);
+    transition: 1s;
+    cursor: pointer;
+}
+:hover.card5{
+    background-color: rgb(255, 245, 245);
+    transition: 1s;
+    cursor: pointer;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 150px;
 }
